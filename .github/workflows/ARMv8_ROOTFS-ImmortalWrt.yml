@@ -102,7 +102,7 @@ jobs:
         with:
           commit_message: ${{ env.COMMIT_TIME }}
           branch: main
-          commit_author: Jejz168 <Jejz168@foxmail.com>
+          commit_author: Jejz1688 <Jejz1688@foxmail.com>
           add_options: '-u'
 # /////////////////////////////////////////////////////////////////////////////////////////////////////////
   Build_ARMv8-ROOTFS:
@@ -381,7 +381,7 @@ jobs:
           内容: ${{ env.commit }}
           hash: ${{ env.hash }}
           ✪ ✣ ✤ ✥ ✦ ❉ ❦ ❧ ❃ ❂ ❁ ❀
-          📍: https://github.com/Jejz168/OpenWrt/releases/tag/ARMv8-ROOTFS-IMMO
+          📍: https://github.com/Jejz1688/OpenWrt/releases/tag/ARMv8-ROOTFS-IMMO
 
     - name: Push notification upload success
       uses: xhnmt/pushplus-action@main
@@ -399,4 +399,4 @@ jobs:
           内容: ${{ env.commit }}
           hash: ${{ env.hash }}
           ✪ ✣ ✤ ✥ ✦ ❉ ❦ ❧ ❃ ❂ ❁ ❀
-          📍: https://github.com/Jejz168/OpenWrt/releases/tag/ARMv8-ROOTFS-IMMO
+          📍: https://github.com/Jejz1688/OpenWrt/releases/tag/ARMv8-ROOTFS-IMMO
