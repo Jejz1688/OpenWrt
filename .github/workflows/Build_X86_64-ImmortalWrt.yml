@@ -165,7 +165,7 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@master
         id: commit
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         with:
           commit_message: ${{ env.COMMIT_TIME }}
           branch: main
